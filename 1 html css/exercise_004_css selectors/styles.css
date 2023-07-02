@@ -1,0 +1,14 @@
+body{
+    background-color:deeppink;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color:white;
+    font-size:48px;
+}
+
+ul{
+    font-size:24px;
+    border-left:5px solid white;
+}

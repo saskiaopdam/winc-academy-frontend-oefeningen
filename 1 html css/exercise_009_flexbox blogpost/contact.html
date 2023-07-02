@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <!-- hier zet je de code in de head tags -->
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    
+    <!-- hier zet je de code in de body tags-->
+    <header>
+      <h1>Mijn eerste website</h1>
+    </header>
+
+    <nav>
+      <ul class="ul-nav">
+        <li class="li-nav">
+          <a href="index.html">Homepage</a>
+        </li>
+        <li class="li-nav">
+          <a href="about.html">About</a>
+        </li>
+        <li class="li-nav">
+          <a href="blog.html">Blog</a>
+        </li>
+        <li class="li-nav">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Contact:</h2>
+      
+<form name="contact" method="POST" data-netlify="true">
+  
+  <p><label for="naam">Naam:</label></p>
+  <input type="text" id="naam" name="naam" />
+
+  <p><label for="e-mail">E-mail:</label></p>
+  <input type="email" id="e-mail" name="e-mail" />
+
+  <p><label for="telefoon">Telefoon:</label></p>
+  <input type="tel" id="telefoon" name="telefoon" />
+
+  <p>
+    <label for="leeftijd">Leeftijd:</label>
+    <input type="number" id="leeftijd" name="leeftijd" min="0" max="120"/>
+  </p>
+
+  <p><label for="geboortedatum">Geboortedatum:</label></p>
+  <input type="date" id="geboortedatum" name="geboortedatum" />
+ 
+
+  <!-- radiobuttons -->
+  <p>Gender:</p>
+  
+  <p>
+    <input type="radio" id="man" name="gender" value="man"/>
+    <label for="man">Man</label>
+  </p>
+  <p>
+    <input type="radio" id="vrouw" name="gender" value="vrouw"/>
+    <label for="vrouw">Vrouw</label>
+  </p>
+  <p>
+    <input type="radio" id="overig" name="gender" value="overig"/>
+    <label for="overig">Overig</label>
+  </p>
+
+  <hr>
+
+  <!-- chechboxes -->
+  <p>Favoriete cuisine:</p>
+
+  <p>
+    <input type="checkbox" id="frans" name="favoriete cuisine" value="frans" />
+    <label for="frans">Frans</label>
+  </p>
+  <p>
+    <input type="checkbox" id="italiaans" name="favoriete cuisine" value="italiaans" />
+    <label for="italiaans">Italiaans</label>
+  </p>
+  <p>
+    <input type="checkbox" id="spaans" name="favoriete cuisine" value="spaans" />
+    <label for="spaans">Spaans</label>
+  </p>
+  <p>
+    <input type="checkbox" id="arabisch" name="favoriete cuisine" value="arabisch" />
+    <label for="arabisch">Arabisch</label>
+  </p>
+
+  <hr>
+
+  <!-- colorpicker -->
+  <p>
+    <label for="fav kleur short">Favoriete kleur short:</label>
+    <input type="color" id="fav kleur short" name="favoriete kleur short" />
+  </p>
+
+  <p><label for="bio">Biografie:</label></p>
+  <textarea id="bio" name="biografie" rows="10" cols="30"></textarea>
+
+  <p><label for="bestand">Upload je laatste recept:</label></p>
+  <input type="file" id="bestand" name="bestand" />
+
+  <p><label for="url">Url naar je recepten website:</label></p>
+  <input type="url" id="url" name="url" />
+  
+  <p>
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Reset" />
+  </p>
+  
+</form>
+    </main>
+
+    <footer>
+      <p>copyright 2021 Saskia Opdam</p>
+    </footer>
+
+  </body>
+ </html>

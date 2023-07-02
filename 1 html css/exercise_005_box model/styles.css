@@ -1,0 +1,44 @@
+*   {
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color:black;
+    font-size:48px;
+}
+
+.ul_nav{
+    list-style-type: none;
+}
+
+.li_nav {
+    display: inline;
+}
+
+header, nav, main, footer{
+    border: 1px solid deeppink;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, footer{
+    text-align: center;
+}
+
+header, nav {
+    padding: 10px 20px;
+}
+
+main {
+    padding: 20px 20px;
+}
+
+nav, main, footer{
+    margin-top: 10px;
+}
+
+

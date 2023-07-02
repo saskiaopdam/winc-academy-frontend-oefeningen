@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <!-- hier zet je de code in de head tags -->
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    
+    <!-- hier zet je de code in de body tags-->
+    <header>
+      <h1>Mijn eerste website</h1>
+    </header>
+
+    <nav>
+      <ul class="ul-nav">
+        <li class="li-nav">
+          <a href="index.html">Homepage</a>
+        </li>
+        <li class="li-nav">
+          <a href="about.html">About</a>
+        </li>
+        <li class="li-nav">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Contact:</h2>
+      
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+    </main>
+
+    <footer>
+      <p>copyright 2021 Saskia Opdam</p>
+    </footer>
+
+  </body>
+ </html>
