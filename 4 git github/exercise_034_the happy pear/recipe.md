@@ -1,0 +1,8 @@
+**EASY FALAFEL IN 10 MINS
+
+Traditionally a falafel is made with soaked chickpeas however we want to speed up how we make one of our favourite snack. These are delicious to make. They will take 10 mins as 5 mins to put together and 5 mins to fry. For a healthier option just bake them
+
+INGREDIENTS 2 x 400ml can of cooked chickpeas 1/4 red onion 2 cloves garlic 20 g Fresh parsley/ coriander 2 tbsp chickpea flour 2 tsp ground cumin 1 tsp ground coriander 1/4 tsp black pepper 1/4 tsp ground chilli 1/2 tsp baking powder can help make the falafel a little more fluffy 1 tbsp lemon juice 1 tsp salt 6 tbsp of oil Herby salad 25 fresh coriander/ flat parsley 1/4 cucumber 1/4 red onion Pinch salt 1 tbsp oil 1 tbsp pomegranate seeds 2 flat breads 150 g hummus Chilli sauce – we have a lovely sriracha recipe here
+
+Some changes to the document <<<<<
+METHOD Drain and rinse the chickpeas. Peel the onion and garlic and finely dice. Add both the chickpeas, onion and garlic to the food processor along with the rest of the ingredients. Pulse until they come together but not too much as you want to ensure to keep some texture. Remove from the food processor and add to a large bowl. Taste and adjust the seasoning to your liking, add more spices if you prefer a hotter falafel. Shape the falafel into small balls using your clean hands. Its important that you compress them so that they stay together when cooking. Heat a Non stick pan on high heat and add 3 tbsp of oil, once hot carefully add the falafels and fry on each side until nice and golden brown For the herby salad just finely dice the onion, cucumber and herbs. Mix together with the oil and salt and season to your taste. Serve on a flat bread with hummus, with the herby salad and some chilli sauce Enjoy!
