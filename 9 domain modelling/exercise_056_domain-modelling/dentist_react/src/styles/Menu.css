@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.selectors {
+  display: flex;
+}
+
+.actionSelector,
+.displaySelector {
+  margin-right: 30px;
+}
+
+.selectLabel {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 5px;
+  border-style: none;
+}
+
+.displays {
+  margin-top: 60px;
+}
+
+.formDisplay,
+.listDisplay {
+  margin-bottom: 60px;
+}
+
+.newDentistForm,
+.newAssistantForm,
+.newPatientForm {
+  /* max-width: 0px;
+  margin-top: 10px; */
+  /* box-shadow: 1px 1px 1px 1px darkslategrey; */
+  /* border: 1px solid darkslategrey; */
+  width: 100%;
+}
+form {
+  max-width: 300px;
+  margin-top: 10px;
+}
+.inputLabel {
+  display: block;
+  margin-bottom: 5px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-style: none;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: darksalmon;
+  border-style: none;
+}
+.submitMessage {
+  font-size: 16px;
+  margin-top: 30px;
+}
