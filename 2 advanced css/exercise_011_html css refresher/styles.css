@@ -1,0 +1,114 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body    {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, p  {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.title  {
+    font-size: 1.4rem;
+}
+
+.subtitle  {
+    font-size: 1.1rem;
+    color: #999;
+    font-weight: normal;
+}
+
+.cards  {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.card   {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (3, auto);
+    grid-template-areas:
+    " title title title img "
+    " text text text text "
+    " buttons buttons buttons buttons ";
+}
+
+.card-title {
+    grid-area: title;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+.card-image  {
+   grid-area: img;
+   background-image: url('avatar-man.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
+   margin-top: 20px;
+   margin-right: 20px;
+}
+
+.card-text    {
+    grid-area: text;
+    padding: 10px 20px 20px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-buttons    {
+    grid-area: buttons;
+    margin: 15px 20px;
+    display: flex;
+}
+
+.button {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.green  {
+    border-left: 1px solid rgb(0, 200, 75);
+    border-top: 1px solid rgb(0, 200, 75);
+    border-bottom: 1px solid rgb(0, 200, 75);
+    color: rgb(0, 200, 75);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.red {
+    border: 1px solid rgb(230, 30, 40);
+    color: rgb(230, 30, 40);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* medium devices */
+@media screen and (min-width: 768px)   {
+
+    .cards  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        max-width: 800px;
+    }
+
+}
